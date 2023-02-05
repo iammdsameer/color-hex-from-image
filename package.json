@@ -1,8 +1,8 @@
 {
   "name": "get-hex-from-image",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Node.js package that gets the most frequently occurring color in an image and returns it as a hexadecimal code.",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
