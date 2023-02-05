@@ -1,0 +1,30 @@
+{
+  "name": "get-hex-from-image",
+  "version": "1.0.1",
+  "description": "A Node.js package that gets the most frequently occurring color in an image and returns it as a hexadecimal code.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmdsameerkhan/color-hex-from-image.git"
+  },
+  "keywords": [
+    "image",
+    "color"
+  ],
+  "author": "MD Sameer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsmdsameerkhan/color-hex-from-image/issues"
+  },
+  "homepage": "https://github.com/itsmdsameerkhan/color-hex-from-image#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.19",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "jimp": "^0.21.0"
+  }
+}
