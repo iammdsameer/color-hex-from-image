@@ -1,6 +1,6 @@
 import Jimp from "jimp";
 
-export async function getColor(pathToImageFile: string): Promise<string> {
+async function getColor(pathToImageFile: string): Promise<string> {
   const image = await Jimp.read(pathToImageFile);
   const pixels = image.bitmap.data;
   let colorCounts: { [key: string]: number } = {};
@@ -32,3 +32,5 @@ export async function getColor(pathToImageFile: string): Promise<string> {
     .padStart(6, "0");
   return `#${hexCode}`;
 }
+
+export default getColor;
